@@ -1,13 +1,8 @@
-python-telegram-bot==12.8
-cryptography<3.4
-PySocks
-    # plugin: telegram
 cloudscraper
     # plugin: cfscraper
 rarfile
     # plugin: decompress
-transmission-rpc
-deluge-client
-irc-bot<1.0.40
+irc-bot
     # plugin: others
-flexget
+flexget[all]
+    # including deluge qbittorrent telegram transmission
